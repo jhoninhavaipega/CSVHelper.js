@@ -1,0 +1,16 @@
+{
+  "name": "CSVHelper",
+  "version": "0.0.1",
+  "description": "Helper for merge csv utms and users",
+  "main": "index.js",
+  "scripts": {
+    "test": "vows --spec",
+    "build": "node index.js"
+  },
+  "author": "Ministry of Silly Walk",
+  "dependencies": {
+    "assert": "^1.3.0",
+    "fast-csv": "^1.0.0",
+    "vows": "^0.8.1"
+  }
+}
